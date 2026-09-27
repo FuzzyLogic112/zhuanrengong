@@ -1,0 +1,12 @@
+id: ems
+name: 中国邮政 / EMS
+aliases: [EMS, 邮政, 中国邮政, 邮政快递]
+category: express
+weight: 70
+website: https://www.ems.com.cn
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "11183"
+    label: 客服热线

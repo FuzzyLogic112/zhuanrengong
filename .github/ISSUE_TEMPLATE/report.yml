@@ -1,0 +1,75 @@
+name: 📞 实测反馈：我刚打过
+description: 告诉大家某家企业现在怎么转人工。你的一分钟，能帮下一个人少绕十分钟。
+title: "[实测] "
+labels: ["实测反馈"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢你！请只写**你亲自打过**的情况。**不要填写**卡号、身份证号、订单号、手机号等个人信息。
+  - type: input
+    id: company
+    attributes:
+      label: 企业
+      placeholder: 如：招商银行
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: 哪天打的
+      placeholder: 如：2026-09-27
+    validations:
+      required: true
+  - type: dropdown
+    id: channel
+    attributes:
+      label: 渠道
+      options:
+        - 电话
+        - 在线客服（网页 / 小程序）
+        - App 内客服
+    validations:
+      required: true
+  - type: input
+    id: number
+    attributes:
+      label: 拨打的号码或入口
+      placeholder: 如：95555 / App「我的 - 客服」
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: 结果
+      options:
+        - 转到了人工，挺顺利
+        - 转到了，但很费劲
+        - 没转到
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 具体怎么做的
+      description: 按了什么键、说了什么、说了几次、大概等了多久、在哪一步被卡住。
+      placeholder: |
+        1. 接通后说「人工服务」，被劝阻
+        2. 再说一次「人工服务」
+        3. 等了大约 1 分钟接通人工
+    validations:
+      required: true
+  - type: input
+    id: region
+    attributes:
+      label: 所在省份（选填）
+      description: 部分热线按地区分流，菜单可能不同。
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 这是我亲自打电话 / 使用客服的真实经历
+          required: true
+        - label: 我没有填写卡号、身份证号、订单号等个人信息
+          required: true

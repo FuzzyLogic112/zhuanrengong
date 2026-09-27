@@ -1,0 +1,18 @@
+id: qunar
+name: 去哪儿旅行
+aliases: [去哪儿, 去哪儿网, Qunar]
+category: travel
+weight: 80
+website: https://www.qunar.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95117"
+    label: 国内客服
+    source: https://www.qunar.com/site/zh/ContactUs_3.shtml
+    checked: 2026-09-27
+  - number: "+86 10 5960 6999"
+    label: 国际客服（海外拨打）
+    source: https://www.qunar.com/site/zh/ContactUs_3.shtml
+    checked: 2026-09-27

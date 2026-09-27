@@ -1,0 +1,15 @@
+id: csg
+name: 南方电网
+aliases: [南网, 电力, 供电, 南网在线]
+category: utility
+weight: 90
+website: https://www.csg.cn
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95598"
+    label: 客服热线
+
+tips:
+  - 广东、广西、云南、贵州、海南由南方电网供电，其他地区多为国家电网。

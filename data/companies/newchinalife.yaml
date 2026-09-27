@@ -1,0 +1,12 @@
+id: newchinalife
+name: 新华保险
+aliases: [新华人寿, NCI]
+category: insurance
+weight: 70
+website: https://www.newchinalife.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95567"
+    label: 客服热线

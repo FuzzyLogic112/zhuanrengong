@@ -1,0 +1,12 @@
+id: csair
+name: 南方航空
+aliases: [南航, China Southern, CZ]
+category: airline
+weight: 95
+website: https://www.csair.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95539"
+    label: 客服热线

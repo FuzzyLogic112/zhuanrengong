@@ -1,0 +1,12 @@
+id: ceb
+name: 中国光大银行
+aliases: [光大银行, 光大, CEB]
+category: bank
+weight: 40
+website: https://www.cebbank.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95595"
+    label: 客服热线

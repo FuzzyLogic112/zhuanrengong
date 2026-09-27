@@ -1,0 +1,26 @@
+id: hzbank
+name: 杭州银行
+aliases: [杭银]
+category: bank
+website: https://www.hzbank.com.cn
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95398"
+    label: 客服热线
+
+# 目前最可行的转人工步骤，必须能在下面的 reports 里找到依据
+steps:
+  phone:
+    - 直接说明问题，智能客服判断需要时会主动转人工。
+    - 也可以在按键菜单里选择人工。
+
+# 实测记录：媒体或网友亲测，带日期和出处。result: success 转到了 / slow 转到但很费劲 / fail 没转到
+reports:
+  - date: 2026-03-07
+    channel: phone
+    result: success
+    by: 凤凰WEEKLY财经（2026 年 3 月实测）
+    url: https://finance.sina.com.cn/wm/2026-03-07/doc-inhqcipv5499286.shtml
+    summary: 智能客服会自动判断是否需要人工并主动转接，按键菜单里也能选人工。

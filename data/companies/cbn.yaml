@@ -1,0 +1,12 @@
+id: cbn
+name: 中国广电
+aliases: [广电, 广电5G, "10099"]
+category: telecom
+weight: 10
+website: https://www.10099.com.cn
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "10099"
+    label: 客服热线

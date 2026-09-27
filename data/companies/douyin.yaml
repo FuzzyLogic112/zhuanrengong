@@ -1,0 +1,34 @@
+id: douyin
+name: 抖音
+aliases: [抖音商城, 抖音团购, Douyin, 字节跳动]
+category: ecommerce
+weight: 80
+website: https://www.douyin.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95152"
+    label: 客服热线
+    source: https://finance.sina.com.cn/tech/digi/2025-12-12/doc-inhaprxe7010479.shtml
+    checked: 2026-09-27
+
+# 目前最可行的转人工步骤，必须能在下面的 reports 里找到依据
+steps:
+  phone:
+    - 按提示选择业务类型；找不到对应项时选「其他问题」。
+    - 排队时会反复推荐在线客服，不想用就继续等。
+
+# 有出处的官方政策或说明
+notes:
+  - text: 抖音官方外呼热线统一为 95152。接到自称抖音客服的来电，可以认准号码，或挂断后自己拨打 95152 核实。
+    source: https://finance.sina.com.cn/tech/digi/2025-12-12/doc-inhaprxe7010479.shtml
+
+# 实测记录：媒体或网友亲测，带日期和出处。result: success 转到了 / slow 转到但很费劲 / fail 没转到
+reports:
+  - date: 2026-09-09
+    channel: phone
+    result: slow
+    by: 新京报（2026 年 9 月 4—6 日实测）
+    url: https://news.qq.com/rain/a/20260909A04K8J00
+    summary: 选「团购问题」后，又尝试「外卖」「酒店住宿」等选项，最后选「其他问题」才排上人工，排队超过 5 分钟，等待期间不断被引导去在线客服。

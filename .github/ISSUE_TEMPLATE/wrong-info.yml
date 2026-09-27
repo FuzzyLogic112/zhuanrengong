@@ -1,0 +1,38 @@
+name: ⚠️ 纠错：号码有误 / 发现假冒号码
+description: 号码错了、停用了，或者发现有人冒充客服号码。这类问题会优先处理。
+title: "[纠错] "
+labels: ["纠错", "优先处理"]
+body:
+  - type: input
+    id: company
+    attributes:
+      label: 企业
+      placeholder: 如：京东
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: 问题类型
+      options:
+        - 号码错误
+        - 号码已停用 / 打不通
+        - 发现假冒客服号码
+        - 补充官方号码
+        - 转人工步骤已经变了
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体情况
+      placeholder: 哪个号码有问题、正确的号码是什么、你是怎么发现的。
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 官方出处链接
+      description: 企业官网、App 截图说明或官方公告的链接，方便核对。
+      placeholder: https://

@@ -1,0 +1,14 @@
+id: ceair
+name: 东方航空
+aliases: [东航, China Eastern, MU]
+category: airline
+weight: 95
+website: https://www.ceair.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95530"
+    label: 客服热线
+    source: https://www.hfairport.com/Airlines/list.aspx
+    checked: 2026-09-27

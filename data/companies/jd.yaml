@@ -1,0 +1,30 @@
+id: jd
+name: 京东
+aliases: [京东商城, JD, 京东金融, 京东健康]
+category: ecommerce
+weight: 90
+website: https://www.jd.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "950618"
+    label: 京东商城
+    hours: "0:00–24:00"
+    source: https://help.jd.com/user/issue/270-314.html
+    checked: 2026-09-27
+  - number: "400-610-1360"
+    label: 第三方商家客服
+    hours: "0:00–24:00"
+    source: https://help.jd.com/user/issue/270-314.html
+    checked: 2026-09-27
+  - number: "95118"
+    label: 京东金融
+    hours: "9:00–22:00"
+    source: https://help.jd.com/user/issue/270-314.html
+    checked: 2026-09-27
+  - number: "950619"
+    label: 京东健康
+    hours: "9:00–21:00"
+    source: https://help.jd.com/user/issue/270-314.html
+    checked: 2026-09-27

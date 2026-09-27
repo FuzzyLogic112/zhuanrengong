@@ -1,0 +1,17 @@
+id: unicom
+name: 中国联通
+aliases: [联通, China Unicom, "10010"]
+category: telecom
+weight: 90
+website: https://www.10010.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "10010"
+    label: 客服热线
+
+# 有出处的官方政策或说明
+notes:
+  - text: 实名登记、满 65 周岁的用户用本人号码拨打，可一键进入人工服务，不用再听语音菜单（工信部 2020 年 12 月推出的适老化措施）。
+    source: https://www.thepaper.cn/newsDetail_forward_10551727

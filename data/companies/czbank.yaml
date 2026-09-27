@@ -1,0 +1,28 @@
+id: czbank
+name: 浙商银行
+aliases: [浙商]
+category: bank
+website: https://www.czbank.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95527"
+    label: 客服热线
+    source: http://czbank.com/cn/pub_info/important_notice/202505/t20250512_94269.shtml
+    checked: 2026-09-27
+
+# 目前最可行的转人工步骤，必须能在下面的 reports 里找到依据
+steps:
+  phone:
+    - 菜单里没有直接人工入口，说「人工服务」。
+    - 过一会儿再说一次「人工服务」，不必连着说。
+
+# 实测记录：媒体或网友亲测，带日期和出处。result: success 转到了 / slow 转到但很费劲 / fail 没转到
+reports:
+  - date: 2026-03-07
+    channel: phone
+    result: success
+    by: 凤凰WEEKLY财经（2026 年 3 月实测）
+    url: https://finance.sina.com.cn/wm/2026-03-07/doc-inhqcipv5499286.shtml
+    summary: 菜单里没有直接的人工入口，说 2 次「人工服务」（不必连着说）即可转接。

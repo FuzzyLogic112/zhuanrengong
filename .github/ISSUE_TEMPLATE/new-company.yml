@@ -1,0 +1,47 @@
+name: ➕ 申请收录新企业
+description: 想查的企业还没有？告诉我们它的官方客服号码和出处。
+title: "[新增] "
+labels: ["新增企业"]
+body:
+  - type: input
+    id: company
+    attributes:
+      label: 企业名称
+      placeholder: 如：唯品会
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 行业
+      options:
+        - 通信运营商
+        - 银行
+        - 支付
+        - 电商购物
+        - 外卖与本地生活
+        - 出行与旅行
+        - 铁路与公共服务
+        - 航空公司
+        - 快递物流
+        - 保险
+        - 水电燃气
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: hotline
+    attributes:
+      label: 官方客服号码
+      placeholder: 如：400-xxx-xxxx
+  - type: input
+    id: source
+    attributes:
+      label: 号码的官方出处
+      description: 企业官网 / App / 官方公告的链接。不接受搜索引擎和号码查询网站上的号码。
+      placeholder: https://
+  - type: textarea
+    id: notes
+    attributes:
+      label: 你知道的转人工方法（选填）
+      description: 如果你亲自打过，也可以写下怎么转到人工的。

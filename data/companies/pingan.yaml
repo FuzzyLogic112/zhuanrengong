@@ -1,0 +1,15 @@
+id: pingan
+name: 中国平安
+aliases: [平安保险, 平安, Ping An]
+category: insurance
+weight: 95
+website: https://www.pingan.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95511"
+    label: 客服热线
+
+tips:
+  - 95511 是平安集团的统一客服号码，保险、银行等业务按语音提示区分。

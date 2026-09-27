@@ -1,0 +1,27 @@
+id: icbc
+name: 中国工商银行
+aliases: [工商银行, 工行, ICBC]
+category: bank
+weight: 100
+website: https://www.icbc.com.cn
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95588"
+    label: 客服热线
+
+# 目前最可行的转人工步骤，必须能在下面的 reports 里找到依据
+steps:
+  phone:
+    - 接通后说「人工服务」。
+    - 被劝阻就再说一次，媒体实测不超过 3 次可转接。
+
+# 实测记录：媒体或网友亲测，带日期和出处。result: success 转到了 / slow 转到但很费劲 / fail 没转到
+reports:
+  - date: 2026-09-09
+    channel: phone
+    result: success
+    by: 新京报（2026 年 9 月 4—6 日实测）
+    url: https://news.qq.com/rain/a/20260909A04K8J00
+    summary: 国有大行中，建行、邮储说 2 次「人工服务」即可转接，其他国有行说「人工服务」不超过 3 次也能转接。

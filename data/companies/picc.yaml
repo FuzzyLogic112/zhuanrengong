@@ -1,0 +1,12 @@
+id: picc
+name: 中国人保
+aliases: [人保, 人保财险, PICC]
+category: insurance
+weight: 90
+website: https://www.picc.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95518"
+    label: 客服热线

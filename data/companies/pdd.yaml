@@ -1,0 +1,28 @@
+id: pdd
+name: 拼多多
+aliases: [PDD, 多多]
+category: ecommerce
+weight: 85
+website: https://www.pinduoduo.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines: []
+
+# 目前最可行的转人工步骤，必须能在下面的 reports 里找到依据
+steps:
+  phone:
+    - 按提示选择业务类型（实测选的是「退货」）。
+    - 把菜单听完，在「结束请挂机」之后按 0。
+
+# 实测记录：媒体或网友亲测，带日期和出处。result: success 转到了 / slow 转到但很费劲 / fail 没转到
+reports:
+  - date: 2026-09-09
+    channel: phone
+    result: slow
+    by: 新京报（2026 年 9 月 4—6 日实测）
+    url: https://news.qq.com/rain/a/20260909A04K8J00
+    summary: 语音导航里选「退货」后进入多层业务选项，人工入口藏在「结束请挂机」提示之后，要按 0 才能转人工。
+
+tips:
+  - 热线号码待补充：请以拼多多 App 内公布的官方号码为准，不要拨打搜索结果里的陌生号码。

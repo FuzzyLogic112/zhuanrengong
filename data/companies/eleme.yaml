@@ -1,0 +1,12 @@
+id: eleme
+name: 饿了么
+aliases: [饿了吗, Ele.me]
+category: local
+weight: 90
+website: https://www.ele.me
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "10105757"
+    label: 客服热线

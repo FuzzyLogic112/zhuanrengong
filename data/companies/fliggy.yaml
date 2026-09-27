@@ -1,0 +1,12 @@
+id: fliggy
+name: 飞猪旅行
+aliases: [飞猪, Fliggy, 阿里旅行]
+category: travel
+weight: 70
+website: https://www.fliggy.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "9510208"
+    label: 客服热线

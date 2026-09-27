@@ -1,0 +1,12 @@
+id: alipay
+name: 支付宝
+aliases: [蚂蚁, Alipay, 花呗, 借呗]
+category: payment
+weight: 100
+website: https://www.alipay.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95188"
+    label: 客服热线

@@ -1,0 +1,19 @@
+数据许可 / Data License
+========================
+
+本仓库 `data/` 目录下的全部数据（企业客服号码、转人工步骤、实测记录、投诉渠道等），
+由转人工速查（zhuanrengong）的贡献者整理，采用
+知识共享 署名-相同方式共享 4.0 国际许可协议（CC BY-SA 4.0）授权。
+
+你可以自由地复制、分发、改编这些数据，包括用于商业目的，但须：
+
+1. 署名：注明来源「转人工速查 https://github.com/FuzzyLogic112/zhuanrengong」；
+2. 相同方式共享：基于这些数据的衍生数据集须以相同协议发布。
+
+协议全文：https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-hans
+
+实测记录中引用的媒体报道，版权归原媒体所有，本仓库仅以摘要形式引用并附原文链接。
+
+The data under `data/` is licensed under Creative Commons Attribution-ShareAlike 4.0
+International (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+The source code is licensed under the MIT License (see LICENSE).

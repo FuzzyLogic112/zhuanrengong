@@ -1,0 +1,12 @@
+id: airchina
+name: 中国国际航空
+aliases: [国航, Air China, CA]
+category: airline
+weight: 100
+website: https://www.airchina.com.cn
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95583"
+    label: 客服热线

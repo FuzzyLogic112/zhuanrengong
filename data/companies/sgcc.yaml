@@ -1,0 +1,15 @@
+id: sgcc
+name: 国家电网
+aliases: [国网, 电力, 供电, 网上国网]
+category: utility
+weight: 100
+website: https://www.sgcc.com.cn
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95598"
+    label: 客服热线
+
+tips:
+  - 停电报修、电费问题也可以用「网上国网」App 提交。

@@ -1,0 +1,27 @@
+id: citic
+name: 中信银行
+aliases: [中信, CITIC]
+category: bank
+weight: 45
+website: https://www.citicbank.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95558"
+    label: 客服热线
+
+# 目前最可行的转人工步骤，必须能在下面的 reports 里找到依据
+steps:
+  phone:
+    - 选择语音导航，直接说「人工服务」。
+    - 按键菜单可能绕路，尽量用语音。
+
+# 实测记录：媒体或网友亲测，带日期和出处。result: success 转到了 / slow 转到但很费劲 / fail 没转到
+reports:
+  - date: 2026-03-07
+    channel: phone
+    result: success
+    by: 凤凰WEEKLY财经（2026 年 3 月实测）
+    url: https://finance.sina.com.cn/wm/2026-03-07/doc-inhqcipv5499286.shtml
+    summary: 选择智能语音导航后，能直接识别「人工服务」口令；走按键菜单反而可能绕路。

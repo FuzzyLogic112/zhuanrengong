@@ -1,0 +1,21 @@
+id: wechatpay
+name: 微信支付
+aliases: [财付通, 微信, WeChat Pay, 腾讯]
+category: payment
+weight: 90
+website: https://pay.weixin.qq.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95017"
+    label: 客服热线
+
+# 实测记录：媒体或网友亲测，带日期和出处。result: success 转到了 / slow 转到但很费劲 / fail 没转到
+reports:
+  - date: 2026-09-09
+    channel: phone
+    result: fail
+    by: 新京报（2026 年 9 月 4—6 日实测）
+    url: https://news.qq.com/rain/a/20260909A04K8J00
+    summary: 输入手机号后被要求描述问题，多次要求「人工服务」后被转入按键服务，实测没有找到人工入口。

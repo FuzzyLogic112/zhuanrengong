@@ -1,0 +1,51 @@
+id: meituan
+name: 美团
+aliases: [美团外卖, 大众点评, 点评, 美团酒店, 美团金融, Meituan]
+category: local
+weight: 100
+website: https://www.meituan.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "1010-7888"
+    label: 美团 App
+    source: https://www.meituan.com/hotline
+    checked: 2026-09-27
+  - number: "1010-0011"
+    label: 美团外卖
+    source: https://www.meituan.com/hotline
+    checked: 2026-09-27
+  - number: "1010-9777"
+    label: 大众点评
+    source: https://www.meituan.com/hotline
+    checked: 2026-09-27
+  - number: "1010-7177"
+    label: 美团酒店
+    source: https://www.meituan.com/hotline
+    checked: 2026-09-27
+  - number: "400-107-3129"
+    label: 美团金融
+    source: https://www.meituan.com/hotline
+    checked: 2026-09-27
+
+# 目前最可行的转人工步骤，必须能在下面的 reports 里找到依据
+steps:
+  phone:
+    - 按提示选择「消费者」，说明是订单问题。
+    - 多次说「转人工」，进入按键服务后选人工。
+
+# 实测记录：媒体或网友亲测，带日期和出处。result: success 转到了 / slow 转到但很费劲 / fail 没转到
+reports:
+  - date: 2026-09-09
+    channel: phone
+    result: slow
+    by: 新京报（2026 年 9 月 4—6 日实测）
+    url: https://news.qq.com/rain/a/20260909A04K8J00
+    summary: 美团：选「消费者」并说明订单问题后，多次说「转人工」，被转入按键服务后才出现人工选项。
+  - date: 2026-09-09
+    channel: phone
+    result: slow
+    by: 新京报（2026 年 9 月 4—6 日实测）
+    url: https://news.qq.com/rain/a/20260909A04K8J00
+    summary: 美团金融：要先连续选三轮业务类别，再多次强调才接入人工。

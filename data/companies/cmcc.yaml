@@ -1,0 +1,17 @@
+id: cmcc
+name: 中国移动
+aliases: [移动, China Mobile, "10086"]
+category: telecom
+weight: 100
+website: https://www.10086.cn
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "10086"
+    label: 客服热线
+
+# 有出处的官方政策或说明
+notes:
+  - text: 实名登记、满 65 周岁的用户用本人号码拨打，可一键进入人工服务，不用再听语音菜单（工信部 2020 年 12 月推出的适老化措施）。
+    source: https://www.thepaper.cn/newsDetail_forward_10551727

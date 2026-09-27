@@ -1,0 +1,15 @@
+id: jdl
+name: 京东物流
+aliases: [京东快递, JDL]
+category: express
+weight: 70
+website: https://www.jdl.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "950616"
+    label: 客服热线
+    hours: "8:00–22:00"
+    source: https://help.jd.com/user/issue/270-314.html
+    checked: 2026-09-27

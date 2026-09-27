@@ -1,0 +1,12 @@
+id: ctrip
+name: 携程旅行
+aliases: [携程, 携程网, Trip.com, Ctrip]
+category: travel
+weight: 100
+website: https://www.ctrip.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95010"
+    label: 客服热线

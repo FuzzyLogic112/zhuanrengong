@@ -1,0 +1,82 @@
+# 转不了人工、企业不处理时，可以去找的投诉/监管渠道
+# 通用顺序：先向企业投诉并记下工单号 → 企业不处理或不满意 → 再找对应监管部门。
+# 每条都附来源，改动请同时更新 source。
+
+- id: samr
+  name: 全国 12315 平台
+  org: 国家市场监督管理总局
+  phone: "12315"
+  web: https://www.12315.cn
+  also: 全国 12315 平台 App、微信和支付宝里的 12315 小程序
+  scope: 电商购物、外卖与本地生活服务、商品质量、价格、虚假宣传等一般消费纠纷。价格、质量类老号码（12358、12365 等）已并入 12315。
+  source: https://www.12315.cn
+
+- id: nfra
+  name: 12378 银行保险消费者投诉热线
+  org: 国家金融监督管理总局
+  phone: "12378"
+  also: 微信小程序「金融消费者保护服务平台」
+  scope: 银行、保险、信用卡等银行业保险业消费投诉。
+  source: https://jrj.sh.gov.cn/zwdt-fxts-tsdh/20260807/a47077b10283471a985ba6d17b72cfad.html
+
+- id: pbc
+  name: 12363 金融消费权益保护咨询投诉电话
+  org: 中国人民银行
+  phone: "12363"
+  scope: 非银行支付机构（如支付宝、微信支付）和征信相关的咨询投诉。
+  source: https://jrj.sh.gov.cn/zwdt-fxts-tsdh/20260807/a47077b10283471a985ba6d17b72cfad.html
+
+- id: csrc
+  name: 12386 证券期货投资者服务热线
+  org: 中国证监会
+  phone: "12386"
+  scope: 证券、期货、基金相关投诉。
+  source: https://jrj.sh.gov.cn/zwdt-fxts-tsdh/20260807/a47077b10283471a985ba6d17b72cfad.html
+
+- id: miit
+  name: 工信部电信用户申诉受理中心
+  org: 工业和信息化部
+  phone: "12300"
+  web: https://yhssglxt.miit.gov.cn/web/
+  scope: 套餐扣费、宽带、携号转网、客服服务等电信服务问题。
+  prereq: 一般先向运营商投诉，对处理结果不满意或运营商未处理，再提交申诉。电话申诉各地安排不同，部分地区已归并到 12345，建议优先网上申诉。
+  source: https://yhssglxt.miit.gov.cn/web/
+
+- id: spb
+  name: 12305 邮政业用户申诉
+  org: 国家邮政局
+  phone: "12305"
+  web: https://sswz.spb.gov.cn/
+  scope: 快递延误、丢失、损毁、拒绝派送等邮政快递服务问题。
+  prereq: 先向快递企业投诉，对处理结果不满意或企业未处理，再向邮政管理部门申诉。
+  source: https://sswz.spb.gov.cn/
+
+- id: caac
+  name: 12326 民航服务质量监督电话
+  org: 中国民用航空局
+  phone: "12326"
+  web: https://www.12326.cn/saas/cacClient/index.html
+  scope: 航空公司、机场、机票代理的服务质量问题。
+  prereq: 先向航空公司或机场投诉（它们仍是第一渠道），未获满意答复再找 12326。
+  source: https://www.caac.gov.cn/XWZX/MHYW/201903/t20190315_195176.html
+
+- id: mot
+  name: 12328 交通运输服务监督电话
+  org: 交通运输部及各地交通运输部门
+  phone: "12328"
+  scope: 出租车、网约车、公交、道路客运、高速公路等交通运输服务。
+  source: https://jtgl.beijing.gov.cn/jgj/jgxx/94246/mtlj/349738/index.html
+
+- id: nea
+  name: 12398 能源监管热线
+  org: 国家能源局
+  phone: "12398"
+  scope: 供电服务、电费、停电等电力服务问题，以及油气相关服务。
+  source: https://www.hmcxw.com/dianhua123.html
+
+- id: local12345
+  name: 12345 政务服务便民热线
+  org: 各地人民政府
+  phone: "12345"
+  scope: 兜底渠道。水、燃气等本地公用事业，旅游投诉（携程、去哪儿等平台公示的全国旅游投诉热线即为 12345），以及不知道该找谁的问题。
+  source: https://www.qunar.com/site/zh/ContactUs_3.shtml

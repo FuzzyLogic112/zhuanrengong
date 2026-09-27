@@ -1,0 +1,15 @@
+id: ly
+name: 同程旅行
+aliases: [同程, 同程艺龙, 艺龙, LY.com]
+category: travel
+weight: 75
+website: https://www.ly.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95711"
+    label: 客服热线
+    hours: "7×24 小时"
+    source: https://www.ly.com/public/about17u/contactus
+    checked: 2026-09-27

@@ -1,0 +1,12 @@
+id: yunda
+name: 韵达快递
+aliases: [韵达, Yunda]
+category: express
+weight: 80
+website: https://www.yundaex.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95546"
+    label: 客服热线

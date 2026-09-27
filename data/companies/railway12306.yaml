@@ -1,0 +1,12 @@
+id: railway12306
+name: 中国铁路 12306
+aliases: ["12306", 铁路, 火车票, 高铁, 国铁]
+category: public
+weight: 100
+website: https://www.12306.cn
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "12306"
+    label: 客服热线

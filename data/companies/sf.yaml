@@ -1,0 +1,12 @@
+id: sf
+name: 顺丰速运
+aliases: [顺丰, SF Express]
+category: express
+weight: 100
+website: https://www.sf-express.com
+updated: 2026-09-27
+
+# 官方客服号码。source = 号码公布出处；checked = 维护者在该出处核对号码的日期（未核对就不写）
+hotlines:
+  - number: "95338"
+    label: 客服热线
